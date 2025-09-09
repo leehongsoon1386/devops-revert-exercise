@@ -47,6 +47,7 @@ jobs: # Top-level element, starts at column 0
 
       # Step 3: Install project dependencies
       # Executes the 'npm install' command to download and install all project dependencies.
+      # This ensures the lock file is available for subsequent steps.
       - name: Install dependencies # Indented 2 spaces from 'steps'
         run: npm install # Indented 2 spaces from 'name'
 
